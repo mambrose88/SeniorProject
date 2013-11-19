@@ -1,0 +1,100 @@
+/* CSS Document */
+/*////////////Nav Css///////////*/
+ul{
+	background-color:#f4c712;
+}
+
+li{ 
+	list-style-type:none;
+	margin-left: 2%;
+	font-size:18px;
+	display:inline-block;
+}
+/*////////////End Nav Css///////////*/
+
+
+
+/*////////////Form Css///////////*/
+form {
+	background-color:#f4c712;
+	margin:auto;
+	margin-left:25%;
+	margin-top:3%;
+	position:relative;
+	width:550px;
+	height:468px;
+	font-size:20px;
+	font-style:italic;
+	line-height:24px;
+	font-weight:bold;
+	color:black;
+	text-decoration:none;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	padding:1%;
+	padding-bottom:2%;
+	border:1px solid #4F000B;
+	border:inset 1px solid #4F000B;
+	-webkit-box-shadow:0px 0px 8px white;
+	-moz-box-shadow:0px 0px 8px white;
+	box-shadow:0px 0px 8px white;
+}
+
+input {
+	width:375;
+	display:block;
+	border:1px solid #ff6700;
+	height:25px;
+	-webkit-box-shadow: 4px 5px 5px #000000;
+	-moz-box-shadow: 4px 5px 5px #000000;
+	box-shadow: 4px 5px 5px #000000;
+}
+
+	
+	textarea{
+		border:1px solid #fafaf;
+	}
+	
+	input.button {
+	width:100px;
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	height:30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1p solid #000000;
+	}
+	input[type=submit]{
+	background-color:white;
+	border-radius:10px;
+	}
+	input.button:hover {
+	background:#fff;
+	color:#09C;
+	}
+	
+	textarea:focus, input:focus {
+	border: 1px solid #09C;
+	}
+	
+/*////////////End Form Css///////////*/
+
+
+
+/*////////////Media Queries Css///////////*/
+
+@media screen and (min-width:421px) {
+
+}
+
+@media screen and (min-width:761px) {
+
+}
+
+@media screen and (min-width:961px){
+
+}
+
